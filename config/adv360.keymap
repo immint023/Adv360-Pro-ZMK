@@ -56,13 +56,23 @@
             >;
         };
 
-        layer_2 {
+        navigation {
             bindings = <
 &trans  &trans     &trans     &trans                &trans                 &trans  &trans                                      &trans  &trans      &trans             &trans           &trans     &trans  &trans
 &trans  &kp GRAVE  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans                                      &trans  &trans      &trans             &trans           &trans     &trans  &trans
 &trans  &trans     &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT    &kp DOWN           &kp UP           &kp RIGHT  &trans  &trans
 &trans  &trans     &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                  &trans      &trans                  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans     &trans  &trans
 &trans  &trans     &trans     &trans                &trans                         &trans  &trans  &trans      &trans  &trans  &trans              &trans             &trans           &trans     &trans  &trans
+            >;
+        };
+
+        app {
+            bindings = <
+&none  &none          &none          &none          &none  &none          &none                                  &none  &none  &none  &none  &none  &none          &none
+&none  &none          &none          &none          &none  &none          &none                                  &none  &none  &none  &none  &none  &kp LA(LS(P))  &none
+&none  &kp LA(LS(A))  &kp LA(LS(S))  &kp LA(LS(D))  &none  &none          &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none          &none
+&none  &none          &none          &kp LA(LS(C))  &none  &kp LA(LS(B))                &none      &none                &none  &none  &none  &none  &none          &none
+&none  &none          &none          &none          &none                 &none  &none  &none      &none  &none  &none         &none  &none  &none  &none          &none
             >;
         };
     };
