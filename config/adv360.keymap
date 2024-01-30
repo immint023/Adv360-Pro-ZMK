@@ -59,9 +59,9 @@
         navigation {
             bindings = <
 &trans  &trans     &trans            &trans                &trans                 &trans  &trans                                         &trans  &trans      &trans                &trans                &trans     &trans  &trans
-&trans  &kp GRAVE  &kp TILDE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans                                         &trans  &trans      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans     &trans  &trans
+&trans  &kp GRAVE  &kp TILDE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans                                         &trans  &trans      &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans     &trans  &trans
 &trans  &trans     &kp LEFT_SHIFT    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans  &trans      &trans  &trans     &trans  &kp LEFT    &kp DOWN              &kp UP                &kp RIGHT  &trans  &trans
-&trans  &trans     &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                  &trans      &trans                     &kp K_MUTE  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &trans     &trans  &trans
+&trans  &trans     &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                  &trans      &trans                     &kp K_MUTE  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN     &trans     &trans  &trans
 &trans  &trans     &kp LEFT_CONTROL  &kp LEFT_ALT          &kp LEFT_COMMAND               &trans  &trans  &trans      &trans  &kp EQUAL  &trans              &trans                &trans                &trans     &trans  &trans
             >;
         };
